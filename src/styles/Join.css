@@ -1,0 +1,48 @@
+/* Join Styles */
+.join-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.join-container h2 {
+    margin-bottom: 20px;
+}
+
+.join-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.join-form label {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.join-form input,
+.join-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.join-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
